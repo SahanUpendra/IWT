@@ -1,0 +1,61 @@
+<!DOCTYPE.html>
+<html lang="en">
+    <head>
+        <title>
+            User login page
+        </title>
+        <link rel="stylesheet" href="..\src\styles\style login.css">
+
+    </head>
+    <body>
+        <header>
+            <h2 class ="teacher">ONLINE TEACHER TRAINER</h2>
+            <nav class = "navigation">
+                <a href ="..\src\Homepage.html">HOME</a>
+                <a href ="..\src\Programs.html">PROGRAM</a>
+                <a href ="..\src\News And Events.html">NEWS & EVENTS</a>
+                <a href ="..\src\Careers.html">CAREERS</a>
+                <a href ="..\src\About us.html">ABOUT US</a>
+                <a href ="..\src\Contact Us.html">CONTACT</a>
+            </nav>
+        </header>
+        <section>
+        <div class = "box">
+            <div class = "value">
+                <form method=post action = "./php/login.php">
+                    <h2>Login</h2>
+                    <div class ="inputbox">
+                        <ion-icon name="person-circle-outline"></ion-icon> 
+                        <input name="uname" type = "text" required>
+                        <label>User Name</label>
+                    </div>
+                    <div class ="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input name="pwd" type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <button type="submit">Log in</button>
+                    <div class ="register">
+                        <p>Don't have a account ? <a href ="Registration.html">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="trainer">
+            <button class ="trainer"><a href="..\src\Login trainer.html">Login As Trainer</a></button>
+        </div>
+        <div class="chat">
+            <button class ="chat">Chat with us</button>
+        </div>
+    </section>
+    <div class="footer">
+    </div>
+    <footer>
+        <div class="social-icon">
+            <ion-icon name = "facebook"></ion-icon>
+        </div>
+    </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

@@ -1,0 +1,172 @@
+nav {
+    background-color: #cb32ed; 
+    padding: 1px;
+    height: 50px;
+}
+nav ul{list-style: none;
+}
+
+nav ul li {display: inline;
+}
+
+nav ul a {
+    
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#hr_1{
+    height: 5px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+
+#profile_pic
+{
+    width:200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 100%;
+    margin-bottom: 25PX;
+    
+    
+    border: solid black;
+}
+
+
+#main_container{
+    display: flex;
+    height: 275px;
+}
+#part_01{
+
+    width: 15%;
+}
+
+#part_02{
+    margin-left: 25PX;
+    margin-top: 50px;
+    width: 70%;
+}
+#Trainer_user_name{
+   
+    margin-bottom: 0px;
+}
+#id_number{
+    margin-top: 0px;
+}
+#part_03{
+    
+    width: 15%;
+    margin-right: 0px;
+   
+}
+#login_out{
+    margin-top: 25PX;
+    
+    width: 50%;
+    
+}
+
+#t_date{
+    width: 50%;
+   margin-top: 150PX;
+   
+}
+
+#middle_nav{
+    display:flex;
+    
+    background-color: #F2BAFF;
+    border-radius: 25px;
+    
+ 
+    
+}
+#middle_nav_button{
+    width:200px;
+    height: 40px;
+    border: none;
+    border-top-left-radius:25px  ;
+    border-top-right-radius:25px  ;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    color : white;
+    background-color: #cb32ed;
+    font-size: 15px;
+    
+}
+#middle_container{
+    display: flex;
+}
+#middle_container_01{
+    width: 70%;
+}
+#middle_container_02{
+    width: 25%;
+
+}
+#special_notice_container{
+    height: 250px;
+
+   
+}
+#special_notice_box{
+    width: 90%;
+    height: 180px;
+   
+    margin: auto;
+    border-radius: 10px;
+    background-color: #F2BAFF;
+   
+}
+
+#chat_container{
+    height: 700px;
+        border: solid black;
+        margin-top: 55px;
+        
+
+}
+h3{
+    
+  
+    font-size:25px;
+    margin-bottom:5px;
+   
+    margin-left: 70px;
+
+}
+#exam_marking_container{
+    
+    height: 250px;
+    
+}
+#exam_marking_box{
+     width: 90%;
+    height: 400px;
+    background-color: #F2BAFF;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+#paragraph_container{
+    display: flex;
+}
+
+h2{
+    
+    background-color: #cb32ed;
+    color: black;
+}
+#footer{
+    
+    margin-top: 25px;
+    background-color:#cb32ed ;
+  }
+
+    

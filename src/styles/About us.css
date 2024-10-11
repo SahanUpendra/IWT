@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    padding: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background: #9d1abb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.teacher{
+    font-size: 15px;
+    color: #fff;
+    user-select: none;
+}
+.navigation a{
+    position: relative;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15PX;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: white;
+}
+.about img{
+    height: auto;
+    width: 360px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: blueviolet;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.sevice{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: white;
+}
+.sevice img{
+    height: auto;
+    width: 420px;
+}
+.sevice-text{
+    width: 550px;
+}
+.second{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sevice-text h1{
+    color: blueviolet;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.sevice-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background: #9d1abb;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.hr_2{
+    height: 5px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer_container{
+    background-color: #9d1abb;
+    margin-top: 0px;
+    height: 160px;
+    display: flex;
+}
+
+
+
+.f_01{
+    width: 25%;
+    
+    
+}
+.f_02{
+    width: 50%;
+    
+    
+}
+.f_03{
+    width:25%;
+    text-align: left;
+    padding-bottom: 25px;
+    color: black;
+}
+.f_03 a{
+    font-size: 30px;
+    color: inherit;
+    border: 1px solid black;
+    width: 38px;
+    height: 35px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 3px;
+
+}
+
+.fc_01{
+    
+   text-align: left;
+   margin-top: 100px;
+}
+
+.fc_02{
+    text-align: center;
+    margin-top: 0px;
+}
+.fc_03{
+    text-align: right;
+    margin-top: 100px;
+}
+
+

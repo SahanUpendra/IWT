@@ -1,0 +1,81 @@
+header{
+    background-color: #cb32ed;
+    text-align: center;
+    
+}
+
+
+#header_name{
+    color: white;
+    font-size: 50px;
+    margin: auto 50px;
+    
+}
+#main_container{
+    width: 80%;
+    margin: 25px 10%;
+    background-color: #F2BAFF;
+    height: 1500px;
+    border :solid #cb32ed;
+    padding-top: 0px;
+}
+#deatils_container{
+    height: 80%;
+  
+
+}
+#conditon_container{
+
+   
+    width: 80%;
+    border:solid #cb32ed;
+    height:90% ;
+    margin: 60px auto;
+}
+#container_footer{
+    display: flex;
+    height: 16%;
+
+}
+#chat_button{
+    width: 80%;
+    display: flex;
+    align-items:end;
+    
+    
+}
+#f_button{
+    width: 20%;
+   
+   
+    margin: auto;
+    
+    
+}
+#chat{
+    height:40px ;
+    width: 20%;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+    
+    
+    
+    
+
+    
+}
+button{
+    width: 75%;
+    background-color: white;
+    height: 40px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    
+}

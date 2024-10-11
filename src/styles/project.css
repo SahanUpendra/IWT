@@ -1,0 +1,164 @@
+#top_nav {
+    background-color: #cb32ed; 
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#top_nav ul{list-style: none;
+}
+
+#top_nav ul li {display: inline;}
+
+#top_nav ul a {
+    
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+
+#hr_1 {
+ 
+  background: black;
+  margin-bottom: 10px;;
+  margin-right: 0px;
+}
+#main{
+    display: flex;
+}
+#subject_box{
+    height:1260px;
+    width:25%;
+    border: solid black;
+    margin-right: 10px;   
+}
+#video_box{
+    width: 75%;
+    height: 100%;
+ /*   border: solid black ;*/ 
+}
+
+#user_box{
+    border:none;
+    background-color:#cb32ed;
+    width: 100%;
+    margin: 0px;
+    height: 100px;
+    
+    
+    margin-bottom: 25px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;  
+    margin-top: 10px;
+    margin: 10px;
+    float: left;
+  }
+  #user_name{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #id_no{
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  #main_subject{
+    margin-left: 10px;
+    margin-bottom: 750px;
+   
+  
+  }
+  #sub_subject{
+    margin-left: 25px;
+  }
+
+  #subject_search{
+    width: 100%;
+    margin-top:10px;
+    height: 10%;
+  }
+
+  #search_bar{
+    width: 60%;
+    margin :15px 20%;
+    border-radius: 25px;
+    
+    padding-top: 5px;
+   
+  
+
+    
+   
+    
+  }
+  #hr_1{
+    color: solid black;
+    height: 3px;
+  }
+
+  #video{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  
+   
+    
+  }
+  #f_line{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    background-color: #F2BAFF;
+    
+  }
+  #s_line{
+    display: flex;
+    width:100%;
+    margin: 40px auto;
+    background-color: #F2BAFF;
+
+   
+   
+    
+  }
+  #video_category{
+    margin-bottom: 0px;
+    background-color: black;
+    color: aliceblue;
+    
+    
+  }
+  hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #V_1 , #V_2 , #V_3 ,#V_4{
+    width: 18%;
+    margin: 20px auto;
+    height: AUTO  ;
+  }
+ 
+  #footer{
+    
+    margin-top: 25px;
+    background-color:#cb32ed ;
+  }
+ #sub_footer{
+    
+    background-color:#cb32ed ;
+    height: 10%;
+    margin-bottom: 2px;
+ }
+  
+
+
+
+
+  
+    
+  

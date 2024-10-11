@@ -1,0 +1,104 @@
+body{
+  background-color: white;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo{
+  font-family: calibri;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #cb32ed;
+  backdrop-filter: blur(40px);
+  color:white;
+  padding: 20px;
+  
+}
+
+*{
+  margin:0;
+}
+
+
+nav{
+  float: right;
+  position: relative;
+  bottom: .8vh;
+  margin-right:40px;
+}
+
+ul{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  transition: font-size,.2s;
+}
+
+
+
+h1{
+  color: black;
+  font-family: verdana;
+  font-size: 200%;
+  padding: 10px;
+}
+
+
+
+.footer{
+  
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: #cb32ed;
+  /*backdrop-filter: blur(40px);*/
+  color:white;
+  padding: 35px;
+ 
+  
+}
+
+.p1{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 150px;
+  width: 99.99%;
+
+}
+
+.p2{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 170px;
+  width: 99.99%;
+
+}
+.p3{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 170px;
+  width: 99.99%;
+
+}
+.p4{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 150px;
+  width: 1000px;
+
+}
+.p5{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 170px;
+  width: 1400px;
+
+}

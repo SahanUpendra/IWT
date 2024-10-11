@@ -1,0 +1,88 @@
+ 
+.main1
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: whitesmoke;
+    align-items: center;
+}
+.section
+{
+    display: flex;
+}
+.card
+{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+img
+{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.section1
+{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 120px;
+    background: rgb(27, 27,27,.5);
+    color: white ;
+    transition:.5s ;
+}
+
+h1
+{
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+p
+{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+.card:hover
+{
+    cursor: pointer;
+}
+
+.card:hover .section1
+{
+    height: 220px;
+    bottom:120px;
+    background: black;
+}
+
+.card:hover p
+{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover .section1
+{
+   opacity: 1;
+   visibility: visible;
+}
+
+.card:hover img
+{
+   transform: scal(1.1) rotate(-3deg);
+}
+

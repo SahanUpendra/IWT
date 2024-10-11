@@ -1,0 +1,104 @@
+<?php
+    session_start()
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Account</title>
+        <link rel="stylesheet" href="..\src\styles\st.css">
+    </head>
+    <body>
+        <div id="topnav"></div>
+            <nav>
+                <ul>
+                    <li><a href="..\src\Homepage.html">HOME</a></li>
+                    <li><a href="..\src\Programs.html">PROGRAMS</a></li>
+                    <li><a href="..\src\News And Events.html">NEWS &amp; EVENTS</a></li>
+                    <li><a href="..\src\Career.html">CAREERS</a></li>
+                    <li><a href="..\src\About us.html">ABOUT US</a></li>
+                    <li><a href="..\src\Contact Us.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr id="hr_1">
+
+        <div id="main">
+
+            <div id="pic_1">
+                <img src="..\src\images\download.png" alt="profile picture " id="profile_pic" >
+            </div>
+            <div id="part_02">
+                <h1 id="user_name"><?php echo $_SESSION['name']; ?></h1>
+                <h4 id="id_number">it22600202</h4>
+                <button id="edit_details">edit details</button>
+            </div>
+            <div id="part_03">
+                <button id="login_out"><a href="./php/logOut.php"> log out</a></button><br>
+    
+            </div>
+            
+            
+            
+         </div> 
+         <hr id="hr_1">  
+         
+        <div id="main_u">
+         <div id="under_main1">
+
+            <div id="enrolled_module"> 
+                 
+                <h3>ENROLLED MODULE</h3>
+
+            </div>
+            
+            <div id="s_notice">
+
+                <h3>SPECIAL NOTICE</h3>
+                
+
+            </div>
+
+            
+        </div>
+           
+            <div id="message_box">
+                <h3>CHAT BOX</h3>
+          </div>
+
+        
+            
+
+        
+    </div>
+            
+       
+
+            
+         
+
+
+         
+         
+            
+        
+        
+            
+            
+                
+
+            
+        
+            
+       
+
+        
+        
+        
+        
+    </body>
+     
+   
+
+
+</html>
